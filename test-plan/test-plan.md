@@ -72,3 +72,15 @@ Antes de iniciar el proceso de pruebas, deben cumplirse las siguientes condicion
 - Las herramientas necesarias (por ejemplo, Playwright) están instaladas y configuradas.
 
 - Los casos de prueba están definidos y revisados.
+## 6. Exit Criteria
+Las actividades de prueba se considerarán completas cuando se cumplan las siguientes condiciones:
+
+- Se han ejecutado todos los casos de prueba planificados.
+
+- Se han validado las funcionalidades críticas (inicio de sesión, selección de productos, proceso de compra y puntos finales de la API).
+
+- Se han documentado los defectos identificados durante las pruebas.
+
+- Se han implementado y ejecutado correctamente las pruebas automatizadas para los escenarios clave.
+
+- Se han reportado adecuadamente los resultados y hallazgos de las pruebas.
