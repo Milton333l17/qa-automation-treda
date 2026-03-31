@@ -60,3 +60,15 @@ Para asegurar que el sistema maneja correctamente las entradas no válidas, como
 - **Edge Case Testing:**  
 
 Para validar el comportamiento del sistema en condiciones inusuales o extremas, como entradas vacías, valores de datos grandes o acciones inesperadas del usuario.
+## 5. Entry Criteria
+Antes de iniciar el proceso de pruebas, deben cumplirse las siguientes condiciones:
+
+- La aplicación web SauceDemo es accesible y funciona correctamente.
+
+- Los puntos finales de la API ReqRes están disponibles y accesibles.
+
+- El entorno de pruebas está configurado correctamente.
+
+- Las herramientas necesarias (por ejemplo, Playwright) están instaladas y configuradas.
+
+- Los casos de prueba están definidos y revisados.
