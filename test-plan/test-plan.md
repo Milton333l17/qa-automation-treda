@@ -84,3 +84,20 @@ Las actividades de prueba se considerarán completas cuando se cumplan las sigui
 - Se han implementado y ejecutado correctamente las pruebas automatizadas para los escenarios clave.
 
 - Se han reportado adecuadamente los resultados y hallazgos de las pruebas.
+## 7. Risks
+Durante el proceso de pruebas se identificaron los siguientes riesgos:
+
+- **Fallos de inicio de sesión:**
+Los usuarios podrían no poder acceder a la aplicación, lo que bloquearía todas las funciones.
+
+- **Problemas de pago:**
+Los errores durante el proceso de pago podrían impedir que los usuarios completen sus compras, afectando las operaciones comerciales.
+
+- **Fallos de la API:**
+Si los puntos finales de la API no están disponibles o devuelven datos incorrectos, las funciones principales podrían no funcionar como se espera.
+
+- **Problemas de validación de datos:**
+El manejo inadecuado de la entrada del usuario podría provocar un comportamiento inesperado o errores del sistema.
+
+- **Inestabilidad del entorno de pruebas:**
+Los problemas con el entorno de pruebas podrían afectar la precisión y confiabilidad de los resultados.
