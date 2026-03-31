@@ -101,3 +101,11 @@ El manejo inadecuado de la entrada del usuario podría provocar un comportamient
 
 - **Inestabilidad del entorno de pruebas:**
 Los problemas con el entorno de pruebas podrían afectar la precisión y confiabilidad de los resultados.
+## 8. Deliverables
+Como parte de este proceso de pruebas, se proporcionarán los siguientes entregables:
+
+- Documento del plan de pruebas
+- Documentación de los casos de prueba
+- Scripts de pruebas automatizadas (frontend y backend)
+- Resultados e informes de la ejecución de las pruebas
+- Informes de errores (si se identifican defectos)
