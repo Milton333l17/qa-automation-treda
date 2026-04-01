@@ -1,9 +1,9 @@
 # Test Plan - QA Automation Challenge
 
-## 1. Objective
+## 1. Objetivo
 El objetivo de este plan de pruebas es validar la calidad y la funcionalidad de la aplicación web SauceDemo y la API ReqRes mediante la identificación de defectos, la garantía del correcto funcionamiento de los flujos de usuario críticos (como el inicio de sesión, la selección de productos y el proceso de compra) y la verificación de la fiabilidad de los puntos finales de la API.
-## 2. Scope
-### In Scope
+## 2. Alcance
+### En alcance
 
 Las siguientes funcionalidades se probarán como parte de este plan de pruebas:
 
@@ -18,7 +18,7 @@ Las siguientes funcionalidades se probarán como parte de este plan de pruebas:
 - Solicitudes POST (creación de nuevos usuarios)
 - Validación de respuesta (códigos de estado y estructura de datos)
 
-### Out of Scope
+### Fuera de alcance
 
 Las siguientes áreas no están incluidas:
 
@@ -26,6 +26,7 @@ Las siguientes áreas no están incluidas:
 - Pruebas de seguridad (pruebas de penetración, análisis de vulnerabilidades)
 - Pruebas de compatibilidad en múltiples dispositivos o navegadores
 - Validación de la base de datos (integridad interna de los datos)
+  
 ## 3. Test Strategy
 El enfoque de pruebas combinará técnicas manuales y automatizadas para garantizar una validación integral del sistema.
 
@@ -60,6 +61,7 @@ Para asegurar que el sistema maneja correctamente las entradas no válidas, como
 - **Edge Case Testing:**  
 
 Para validar el comportamiento del sistema en condiciones inusuales o extremas, como entradas vacías, valores de datos grandes o acciones inesperadas del usuario.
+
 ## 5. Entry Criteria
 Antes de iniciar el proceso de pruebas, deben cumplirse las siguientes condiciones:
 
@@ -72,6 +74,7 @@ Antes de iniciar el proceso de pruebas, deben cumplirse las siguientes condicion
 - Las herramientas necesarias (por ejemplo, Playwright) están instaladas y configuradas.
 
 - Los casos de prueba están definidos y revisados.
+- 
 ## 6. Exit Criteria
 Las actividades de prueba se considerarán completas cuando se cumplan las siguientes condiciones:
 
@@ -101,7 +104,7 @@ El manejo inadecuado de la entrada del usuario podría provocar un comportamient
 
 - **Inestabilidad del entorno de pruebas:**
 Los problemas con el entorno de pruebas podrían afectar la precisión y confiabilidad de los resultados.
-## 8. Deliverables
+## 8. Entregables
 Como parte de este proceso de pruebas, se proporcionarán los siguientes entregables:
 
 - Documento del plan de pruebas
