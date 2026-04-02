@@ -40,3 +40,4 @@ def test_agregar_productos_y_validar_en_home(page: Page):
 
     #python -m pytest tests/cartPage.py --headed --slowmo 1000
     
+    #python -m pytest tests/cartPage.py --headed --slowmo 500 --html=reporte_frontend_treda.html --self-contained-html

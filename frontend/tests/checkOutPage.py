@@ -88,3 +88,5 @@ def test_flujo_checkout_completo(page: Page):
     expect(page.locator("body")).to_contain_text(re.compile(r"(Thank you|Payment|error)", re.IGNORECASE))
 
     print("Flujo de checkout ejecutado y validado.")
+
+    #python -m pytest tests/checkOutPage.py --headed --slowmo 500 --html=reporte_frontend_treda.html --self-contained-html
