@@ -71,10 +71,9 @@ Antes de iniciar el proceso de pruebas, deben cumplirse las siguientes condicion
 
 - El entorno de pruebas está configurado correctamente.
 
-- Las herramientas necesarias (por ejemplo, Playwright) están instaladas y configuradas.
+- Las herramientas necesarias (en este caso, Playwright) están instaladas y configuradas.
 
 - Los casos de prueba están definidos y revisados.
-- 
 ## 6. Exit Criteria
 Las actividades de prueba se considerarán completas cuando se cumplan las siguientes condiciones:
 
@@ -87,6 +86,7 @@ Las actividades de prueba se considerarán completas cuando se cumplan las sigui
 - Se han implementado y ejecutado correctamente las pruebas automatizadas para los escenarios clave.
 
 - Se han reportado adecuadamente los resultados y hallazgos de las pruebas.
+  
 ## 7. Risks
 Durante el proceso de pruebas se identificaron los siguientes riesgos:
 
@@ -96,19 +96,16 @@ Los usuarios podrían no poder acceder a la aplicación, lo que bloquearía toda
 - **Problemas de pago:**
 Los errores durante el proceso de pago podrían impedir que los usuarios completen sus compras, afectando las operaciones comerciales.
 
-- **Fallos de la API:**
-Si los puntos finales de la API no están disponibles o devuelven datos incorrectos, las funciones principales podrían no funcionar como se espera.
-
 - **Problemas de validación de datos:**
 El manejo inadecuado de la entrada del usuario podría provocar un comportamiento inesperado o errores del sistema.
 
 - **Inestabilidad del entorno de pruebas:**
 Los problemas con el entorno de pruebas podrían afectar la precisión y confiabilidad de los resultados.
+
 ## 8. Entregables
 Como parte de este proceso de pruebas, se proporcionarán los siguientes entregables:
 
 - Documento del plan de pruebas
 - Documentación de los casos de prueba
 - Scripts de pruebas automatizadas (frontend y backend)
-- Resultados e informes de la ejecución de las pruebas
-- Informes de errores (si se identifican defectos)
+- Informes de errores 
